@@ -3,7 +3,7 @@ header{
     padding: 28px 8%;
     position: sticky;
     top: 0;
-    background: #fff9ea ;
+    background: var(--primary-color) ;
     z-index: 3;
 }
 
@@ -16,7 +16,7 @@ header{
 
 #nav_logo{
     font-size: 20px;
-    color: #8b008b;
+    color: var(--primary-color-3);
 }
 
 #nav_list{
@@ -32,7 +32,7 @@ header{
 }
 
 .nav-item.active a{
-    color: #8b008b;
+    color: var(--primary-color-3);
     border-bottom: 3px solid #642764;
 }
 
