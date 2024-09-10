@@ -9,6 +9,7 @@
     --primary-color: #fff9ea;
     --primary-color-2: #ffe8b4;
     --primary-color-3: #8b008b;
+    --primary-color-4: #8a4a88 ;
 
 }
 
@@ -43,7 +44,7 @@ section{
 }
 
 .btn-default:hover{
-    background-color: #8a4a88;
+    background-color: var(--primary-color-4);
 }
 
 .social-media-buttons{

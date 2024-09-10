@@ -1,8 +1,8 @@
-#testimonials{
-    min-width: calc(100vh - 91px);
+#testimonials {
+    min-height: calc(100vh - 91px);
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     gap: 48px;
 }
 
