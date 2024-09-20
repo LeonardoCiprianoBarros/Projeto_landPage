@@ -4,6 +4,10 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background-image: url(../imgs/miv\ fundo.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 #dishes{
@@ -42,6 +46,13 @@
     border-radius: 0px 37.5px 0px 42.5px;
 }
 
+.dish-image{
+    width: 80%;
+}
+.dish-title{
+    text-align: center;
+    margin-top: 2%;
+}
 .dish-description{
     color: #434343;
     text-align: center;

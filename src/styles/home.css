@@ -1,6 +1,6 @@
 #home{
   display: flex;
-  min-width: calc(100vh - 91px);
+  min-height: calc(100vh - 91px );
   position: relative;
 }
 
@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   gap: 28px;
-  margin-top: 5%;
+  margin-top: 6%;
 }
 
 #cta .title{
@@ -47,19 +47,46 @@
 }
 
 #banner {
+  
+  margin-top: 6%;
   display: flex;
   align-items: start;
   justify-content: end;
-  width: 70%;
+  align-items: center;
+  width: 60%;
   z-index: 2;
+  /* border: red 1px solid; */
+
 }
 
-#banner img{
-  height: 100%;
-  width: fit-content;
+#banner .carousel {
+  width: 100%; /* Faz com que o carousel preencha o espaço do banner */
+ 
+
 }
 
-.shape{
+.carousel-inner {
+  width: 100%; /* Garante que os itens internos também respeitem a largura do carousel */
+}
+
+.carousel-item img {
+  width: 100%; /* Faz com que as imagens preencham o carousel */
+  height: 450px; /* Mantém uma altura fixa para consistência */
+  object-fit: cover; /* Ajusta a imagem para caber no container */
+}
+
+.carousel-item video {
+  width: 100%; /* Faz com que as imagens preencham o carousel */
+  height: 450px; /* Mantém uma altura fixa para consistência */
+  object-fit: cover; /* Ajusta a imagem para caber no container */
+}
+
+/* #banner img{
+  
+  object-fit: cover; 
+} */
+
+/* .shape{
   background-color: var(--primary-color-2);
   width: 50%;
   height: 100%;
@@ -68,7 +95,10 @@
   top: 0;
   right: 0;
   z-index: 1;
-}
+} */
+
+/* CARROSEL */
+
 
 @media screen and (max-width: 1170px){
   #home{

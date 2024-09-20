@@ -4,7 +4,7 @@ header{
     position: sticky;
     top: 0;
     background: var(--primary-color) ;
-    z-index: 3;
+    z-index: 1001;
 }
 
 #navbar{
@@ -15,8 +15,18 @@ header{
 }
 
 #nav_logo{
+    width: 11%;
+    height: 11%;    
+}
+
+#nav_logo{
     font-size: 20px;
     color: var(--primary-color-3);
+}
+
+.link_whatsapp{
+    text-decoration: none;
+    
 }
 
 #nav_list{
@@ -73,6 +83,11 @@ header{
     #mobile_nav_list .nav-item{
         list-style: none;
         text-align: center;
+    }
+
+    #nav_logo{
+        width: 30%;
+        height: 30%;    
     }
 
     

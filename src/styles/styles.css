@@ -4,13 +4,13 @@
 @import url(menu.css);
 @import url(testimonials.css);
 @import url(footer.css);
+@import url(portfolio.css);
 
 :root{
     --primary-color: #fff9ea;
     --primary-color-2: #ffe8b4;
-    --primary-color-3: #8b008b;
+    --primary-color-3: #5e1dad;
     --primary-color-4: #8a4a88 ;
-
 }
 
 
